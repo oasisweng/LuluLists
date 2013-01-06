@@ -31,6 +31,9 @@
 		3567108D1698407B0093661C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356710541698407A0093661C /* Foundation.framework */; };
 		356710951698407B0093661C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356710931698407B0093661C /* InfoPlist.strings */; };
 		356710981698407B0093661C /* LuluListsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356710971698407B0093661C /* LuluListsTests.m */; };
+		356710A21698B1260093661C /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710A11698B1260093661C /* add.png */; };
+		356710A41698B1F00093661C /* catagories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 356710A31698B1F00093661C /* catagories.plist */; };
+		356710A61698C2170093661C /* cuisineList.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 356710A51698C2170093661C /* cuisineList.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		356710941698407B0093661C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		356710961698407B0093661C /* LuluListsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuluListsTests.h; sourceTree = "<group>"; };
 		356710971698407B0093661C /* LuluListsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuluListsTests.m; sourceTree = "<group>"; };
+		356710A11698B1260093661C /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		356710A31698B1F00093661C /* catagories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = catagories.plist; sourceTree = "<group>"; };
+		356710A51698C2170093661C /* cuisineList.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = cuisineList.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,9 @@
 		356710591698407A0093661C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				356710A31698B1F00093661C /* catagories.plist */,
+				356710A51698C2170093661C /* cuisineList.rtf */,
+				356710A11698B1260093661C /* add.png */,
 				3567105A1698407A0093661C /* LuluLists-Info.plist */,
 				3567105B1698407A0093661C /* InfoPlist.strings */,
 				3567105E1698407A0093661C /* main.m */,
@@ -270,6 +279,9 @@
 				3567107D1698407A0093661C /* LLFirstViewController_iPad.xib in Resources */,
 				356710801698407A0093661C /* LLSecondViewController_iPhone.xib in Resources */,
 				356710831698407B0093661C /* LLSecondViewController_iPad.xib in Resources */,
+				356710A21698B1260093661C /* add.png in Resources */,
+				356710A41698B1F00093661C /* catagories.plist in Resources */,
+				356710A61698C2170093661C /* cuisineList.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
