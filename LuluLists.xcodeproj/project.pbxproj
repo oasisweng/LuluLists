@@ -16,14 +16,11 @@
 		356710651698407A0093661C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710641698407A0093661C /* Default.png */; };
 		356710671698407A0093661C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710661698407A0093661C /* Default@2x.png */; };
 		356710691698407A0093661C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710681698407A0093661C /* Default-568h@2x.png */; };
-		3567106C1698407A0093661C /* LLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3567106B1698407A0093661C /* LLFirstViewController.m */; };
 		3567106E1698407A0093661C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3567106D1698407A0093661C /* first.png */; };
 		356710701698407A0093661C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3567106F1698407A0093661C /* first@2x.png */; };
 		356710731698407A0093661C /* LLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356710721698407A0093661C /* LLSecondViewController.m */; };
 		356710751698407A0093661C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710741698407A0093661C /* second.png */; };
 		356710771698407A0093661C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710761698407A0093661C /* second@2x.png */; };
-		3567107A1698407A0093661C /* LLFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356710781698407A0093661C /* LLFirstViewController_iPhone.xib */; };
-		3567107D1698407A0093661C /* LLFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3567107B1698407A0093661C /* LLFirstViewController_iPad.xib */; };
 		356710801698407A0093661C /* LLSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3567107E1698407A0093661C /* LLSecondViewController_iPhone.xib */; };
 		356710831698407B0093661C /* LLSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356710811698407B0093661C /* LLSecondViewController_iPad.xib */; };
 		3567108B1698407B0093661C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3567108A1698407B0093661C /* SenTestingKit.framework */; };
@@ -32,8 +29,25 @@
 		356710951698407B0093661C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356710931698407B0093661C /* InfoPlist.strings */; };
 		356710981698407B0093661C /* LuluListsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356710971698407B0093661C /* LuluListsTests.m */; };
 		356710A21698B1260093661C /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 356710A11698B1260093661C /* add.png */; };
-		356710A41698B1F00093661C /* catagories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 356710A31698B1F00093661C /* catagories.plist */; };
-		356710A61698C2170093661C /* cuisineList.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 356710A51698C2170093661C /* cuisineList.rtf */; };
+		356710A41698B1F00093661C /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 356710A31698B1F00093661C /* categories.plist */; };
+		359D133E16BA77B900D6F33D /* SLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 359D133D16BA77B900D6F33D /* SLCategory.m */; };
+		359D13F116BEC75000D6F33D /* bdzyzt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359D13F016BEC75000D6F33D /* bdzyzt.ttf */; };
+		359D13F416BECACF00D6F33D /* pixelized.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359D13F316BECACF00D6F33D /* pixelized.ttf */; };
+		35D0F59516A598F100802622 /* LLShoppingListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0F59416A598F100802622 /* LLShoppingListController.m */; };
+		35D0F59D16A59F1500802622 /* Five-Minutes.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F59A16A59EF000802622 /* Five-Minutes.otf */; };
+		35D0F59F16A5A01600802622 /* governor.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F59E16A5A01600802622 /* governor.ttf */; };
+		35D0F5A116A5A34100802622 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0F5A016A5A34100802622 /* QuartzCore.framework */; };
+		35D0F5A816A5A43900802622 /* governor.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F59E16A5A01600802622 /* governor.ttf */; };
+		35D0F5AB16A5A56500802622 /* LLShoppingListController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F5A416A5A38F00802622 /* LLShoppingListController_iPhone.xib */; };
+		35D0F60816A5B35F00802622 /* database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35D0F60616A5B35F00802622 /* database.xcdatamodeld */; };
+		35D0F60A16AB4C3200802622 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0F60916AB4C3200802622 /* CoreData.framework */; };
+		35D0F6D016B2A72800802622 /* SLEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0F6CF16B2A72800802622 /* SLEntry.m */; };
+		35D0F6D216B2AFF200802622 /* ShoppingListColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F6D116B2AFF200802622 /* ShoppingListColors.plist */; };
+		35D0F6E516B3E3B700802622 /* blackPixel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F6E416B3E3B700802622 /* blackPixel.gif */; };
+		35D0F6F116B40CA500802622 /* pickAnAmount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F6F016B40CA500802622 /* pickAnAmount.xib */; };
+		35D0F6F716B7FB5B00802622 /* graphite.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F6F616B7FB5A00802622 /* graphite.png */; };
+		35D0F6FA16B81D2900802622 /* donedown.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F6F816B81D2800802622 /* donedown.png */; };
+		35D0F6FB16B81D2900802622 /* doneup.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D0F6F916B81D2900802622 /* doneup.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,16 +74,13 @@
 		356710641698407A0093661C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		356710661698407A0093661C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		356710681698407A0093661C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3567106A1698407A0093661C /* LLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLFirstViewController.h; sourceTree = "<group>"; };
-		3567106B1698407A0093661C /* LLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFirstViewController.m; sourceTree = "<group>"; };
+		3567106A1698407A0093661C /* LLShoppingListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLShoppingListController.h; sourceTree = "<group>"; };
 		3567106D1698407A0093661C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		3567106F1698407A0093661C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		356710711698407A0093661C /* LLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSecondViewController.h; sourceTree = "<group>"; };
 		356710721698407A0093661C /* LLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSecondViewController.m; sourceTree = "<group>"; };
 		356710741698407A0093661C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		356710761698407A0093661C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		356710791698407A0093661C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLFirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		3567107C1698407A0093661C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLFirstViewController_iPad.xib; sourceTree = "<group>"; };
 		3567107F1698407A0093661C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLSecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		356710821698407B0093661C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLSecondViewController_iPad.xib; sourceTree = "<group>"; };
 		356710891698407B0093661C /* LuluListsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluListsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,8 +90,27 @@
 		356710961698407B0093661C /* LuluListsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuluListsTests.h; sourceTree = "<group>"; };
 		356710971698407B0093661C /* LuluListsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuluListsTests.m; sourceTree = "<group>"; };
 		356710A11698B1260093661C /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
-		356710A31698B1F00093661C /* catagories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = catagories.plist; sourceTree = "<group>"; };
-		356710A51698C2170093661C /* cuisineList.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = cuisineList.rtf; sourceTree = "<group>"; };
+		356710A31698B1F00093661C /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		359D133C16BA77B900D6F33D /* SLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCategory.h; sourceTree = "<group>"; };
+		359D133D16BA77B900D6F33D /* SLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCategory.m; sourceTree = "<group>"; };
+		359D13F016BEC75000D6F33D /* bdzyzt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bdzyzt.ttf; sourceTree = "<group>"; };
+		359D13F316BECACF00D6F33D /* pixelized.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixelized.ttf; sourceTree = "<group>"; };
+		35D0F59416A598F100802622 /* LLShoppingListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShoppingListController.m; sourceTree = "<group>"; };
+		35D0F59A16A59EF000802622 /* Five-Minutes.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Five-Minutes.otf"; sourceTree = "<group>"; };
+		35D0F59E16A5A01600802622 /* governor.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = governor.ttf; sourceTree = "<group>"; };
+		35D0F5A016A5A34100802622 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35D0F5A316A5A38F00802622 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLShoppingListController_iPad.xib; sourceTree = "<group>"; };
+		35D0F5A516A5A38F00802622 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLShoppingListController_iPhone.xib; sourceTree = "<group>"; };
+		35D0F60716A5B35F00802622 /* database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = database.xcdatamodel; sourceTree = "<group>"; };
+		35D0F60916AB4C3200802622 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		35D0F6CE16B2A72800802622 /* SLEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEntry.h; sourceTree = "<group>"; };
+		35D0F6CF16B2A72800802622 /* SLEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEntry.m; sourceTree = "<group>"; };
+		35D0F6D116B2AFF200802622 /* ShoppingListColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShoppingListColors.plist; sourceTree = "<group>"; };
+		35D0F6E416B3E3B700802622 /* blackPixel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = blackPixel.gif; path = ../blackPixel.gif; sourceTree = "<group>"; };
+		35D0F6F016B40CA500802622 /* pickAnAmount.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = pickAnAmount.xib; path = ../pickAnAmount.xib; sourceTree = "<group>"; };
+		35D0F6F616B7FB5A00802622 /* graphite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphite.png; sourceTree = "<group>"; };
+		35D0F6F816B81D2800802622 /* donedown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donedown.png; sourceTree = "<group>"; };
+		35D0F6F916B81D2900802622 /* doneup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneup.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D0F60A16AB4C3200802622 /* CoreData.framework in Frameworks */,
+				35D0F5A116A5A34100802622 /* QuartzCore.framework in Frameworks */,
 				356710531698407A0093661C /* UIKit.framework in Frameworks */,
 				356710551698407A0093661C /* Foundation.framework in Frameworks */,
 				356710571698407A0093661C /* CoreGraphics.framework in Frameworks */,
@@ -129,6 +161,8 @@
 		356710511698407A0093661C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35D0F60916AB4C3200802622 /* CoreData.framework */,
+				35D0F5A016A5A34100802622 /* QuartzCore.framework */,
 				356710521698407A0093661C /* UIKit.framework */,
 				356710541698407A0093661C /* Foundation.framework */,
 				356710561698407A0093661C /* CoreGraphics.framework */,
@@ -142,18 +176,18 @@
 			children = (
 				356710611698407A0093661C /* LLAppDelegate.h */,
 				356710621698407A0093661C /* LLAppDelegate.m */,
-				3567106A1698407A0093661C /* LLFirstViewController.h */,
-				3567106B1698407A0093661C /* LLFirstViewController.m */,
+				3567106A1698407A0093661C /* LLShoppingListController.h */,
+				35D0F59416A598F100802622 /* LLShoppingListController.m */,
 				3567106D1698407A0093661C /* first.png */,
 				3567106F1698407A0093661C /* first@2x.png */,
 				356710711698407A0093661C /* LLSecondViewController.h */,
 				356710721698407A0093661C /* LLSecondViewController.m */,
 				356710741698407A0093661C /* second.png */,
 				356710761698407A0093661C /* second@2x.png */,
-				356710781698407A0093661C /* LLFirstViewController_iPhone.xib */,
-				3567107B1698407A0093661C /* LLFirstViewController_iPad.xib */,
 				3567107E1698407A0093661C /* LLSecondViewController_iPhone.xib */,
 				356710811698407B0093661C /* LLSecondViewController_iPad.xib */,
+				35D0F5A216A5A38F00802622 /* LLShoppingListController_iPad.xib */,
+				35D0F5A416A5A38F00802622 /* LLShoppingListController_iPhone.xib */,
 				356710591698407A0093661C /* Supporting Files */,
 			);
 			path = LuluLists;
@@ -162,8 +196,21 @@
 		356710591698407A0093661C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				356710A31698B1F00093661C /* catagories.plist */,
-				356710A51698C2170093661C /* cuisineList.rtf */,
+				359D13F016BEC75000D6F33D /* bdzyzt.ttf */,
+				359D13F316BECACF00D6F33D /* pixelized.ttf */,
+				35D0F6F816B81D2800802622 /* donedown.png */,
+				35D0F6F916B81D2900802622 /* doneup.png */,
+				35D0F6F616B7FB5A00802622 /* graphite.png */,
+				35D0F6F016B40CA500802622 /* pickAnAmount.xib */,
+				35D0F6E416B3E3B700802622 /* blackPixel.gif */,
+				359D133C16BA77B900D6F33D /* SLCategory.h */,
+				359D133D16BA77B900D6F33D /* SLCategory.m */,
+				35D0F60616A5B35F00802622 /* database.xcdatamodeld */,
+				35D0F6CE16B2A72800802622 /* SLEntry.h */,
+				35D0F6CF16B2A72800802622 /* SLEntry.m */,
+				35D0F59E16A5A01600802622 /* governor.ttf */,
+				35D0F59A16A59EF000802622 /* Five-Minutes.otf */,
+				356710A31698B1F00093661C /* categories.plist */,
 				356710A11698B1260093661C /* add.png */,
 				3567105A1698407A0093661C /* LuluLists-Info.plist */,
 				3567105B1698407A0093661C /* InfoPlist.strings */,
@@ -172,6 +219,7 @@
 				356710641698407A0093661C /* Default.png */,
 				356710661698407A0093661C /* Default@2x.png */,
 				356710681698407A0093661C /* Default-568h@2x.png */,
+				35D0F6D116B2AFF200802622 /* ShoppingListColors.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -267,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D0F5A816A5A43900802622 /* governor.ttf in Resources */,
 				3567105D1698407A0093661C /* InfoPlist.strings in Resources */,
 				356710651698407A0093661C /* Default.png in Resources */,
 				356710671698407A0093661C /* Default@2x.png in Resources */,
@@ -275,13 +324,20 @@
 				356710701698407A0093661C /* first@2x.png in Resources */,
 				356710751698407A0093661C /* second.png in Resources */,
 				356710771698407A0093661C /* second@2x.png in Resources */,
-				3567107A1698407A0093661C /* LLFirstViewController_iPhone.xib in Resources */,
-				3567107D1698407A0093661C /* LLFirstViewController_iPad.xib in Resources */,
 				356710801698407A0093661C /* LLSecondViewController_iPhone.xib in Resources */,
 				356710831698407B0093661C /* LLSecondViewController_iPad.xib in Resources */,
 				356710A21698B1260093661C /* add.png in Resources */,
-				356710A41698B1F00093661C /* catagories.plist in Resources */,
-				356710A61698C2170093661C /* cuisineList.rtf in Resources */,
+				356710A41698B1F00093661C /* categories.plist in Resources */,
+				35D0F59D16A59F1500802622 /* Five-Minutes.otf in Resources */,
+				35D0F5AB16A5A56500802622 /* LLShoppingListController_iPhone.xib in Resources */,
+				35D0F6D216B2AFF200802622 /* ShoppingListColors.plist in Resources */,
+				35D0F6E516B3E3B700802622 /* blackPixel.gif in Resources */,
+				35D0F6F116B40CA500802622 /* pickAnAmount.xib in Resources */,
+				35D0F6F716B7FB5B00802622 /* graphite.png in Resources */,
+				35D0F6FA16B81D2900802622 /* donedown.png in Resources */,
+				35D0F6FB16B81D2900802622 /* doneup.png in Resources */,
+				359D13F116BEC75000D6F33D /* bdzyzt.ttf in Resources */,
+				359D13F416BECACF00D6F33D /* pixelized.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				356710951698407B0093661C /* InfoPlist.strings in Resources */,
+				35D0F59F16A5A01600802622 /* governor.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +375,11 @@
 			files = (
 				3567105F1698407A0093661C /* main.m in Sources */,
 				356710631698407A0093661C /* LLAppDelegate.m in Sources */,
-				3567106C1698407A0093661C /* LLFirstViewController.m in Sources */,
 				356710731698407A0093661C /* LLSecondViewController.m in Sources */,
+				35D0F59516A598F100802622 /* LLShoppingListController.m in Sources */,
+				35D0F60816A5B35F00802622 /* database.xcdatamodeld in Sources */,
+				35D0F6D016B2A72800802622 /* SLEntry.m in Sources */,
+				359D133E16BA77B900D6F33D /* SLCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,22 +410,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		356710781698407A0093661C /* LLFirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				356710791698407A0093661C /* en */,
-			);
-			name = LLFirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		3567107B1698407A0093661C /* LLFirstViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3567107C1698407A0093661C /* en */,
-			);
-			name = LLFirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		3567107E1698407A0093661C /* LLSecondViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,6 +432,22 @@
 				356710941698407B0093661C /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35D0F5A216A5A38F00802622 /* LLShoppingListController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D0F5A316A5A38F00802622 /* en */,
+			);
+			name = LLShoppingListController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		35D0F5A416A5A38F00802622 /* LLShoppingListController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D0F5A516A5A38F00802622 /* en */,
+			);
+			name = LLShoppingListController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -520,6 +580,7 @@
 				3567109D1698407B0093661C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3567109E1698407B0093661C /* Build configuration list for PBXNativeTarget "LuluListsTests" */ = {
 			isa = XCConfigurationList;
@@ -528,8 +589,22 @@
 				356710A01698407B0093661C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35D0F60616A5B35F00802622 /* database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35D0F60716A5B35F00802622 /* database.xcdatamodel */,
+			);
+			currentVersion = 35D0F60716A5B35F00802622 /* database.xcdatamodel */;
+			path = database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 356710451698407A0093661C /* Project object */;
 }

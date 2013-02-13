@@ -8,11 +8,18 @@
 
 #import "LLAppDelegate.h"
 
-#import "LLFirstViewController.h"
+#import "LLShoppingListController.h"
 
 #import "LLSecondViewController.h"
 
 @implementation LLAppDelegate
+@synthesize managedObjectContext = __managedObjectContext;
+@synthesize managedObjectModel = __managedObjectModel;
+@synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+
+NSString*const LLStandardFont = @"BDZYJT--GB1-0";
+NSString*const LLStandardPixelizedFont = @"04b03";
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -20,10 +27,10 @@
     // Override point for customization after application launch.
 	UIViewController *viewController1, *viewController2;
 	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    viewController1 = [[LLFirstViewController alloc] initWithNibName:@"LLFirstViewController_iPhone" bundle:nil];
+	    viewController1 = [[LLShoppingListController alloc] initWithNibName:@"LLShoppingListController_iPhone" bundle:nil];
 	    viewController2 = [[LLSecondViewController alloc] initWithNibName:@"LLSecondViewController_iPhone" bundle:nil];
 	} else {
-	    viewController1 = [[LLFirstViewController alloc] initWithNibName:@"LLFirstViewController_iPad" bundle:nil];
+	    viewController1 = [[LLShoppingListController alloc] initWithNibName:@"LLShoppingListController_iPad" bundle:nil];
 	    viewController2 = [[LLSecondViewController alloc] initWithNibName:@"LLSecondViewController_iPad" bundle:nil];
 	}
 	self.tabBarController = [[UITabBarController alloc] init];
@@ -73,5 +80,66 @@
 {
 }
 */
+
+#pragma mark - Core Data stack
+
+// Returns the managed object context for the application.
+// If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
+- (NSManagedObjectContext *)managedObjectContext
+{
+	if (__managedObjectContext != nil) {
+		return __managedObjectContext;
+	}
+	
+	NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+	if (coordinator != nil) {
+		__managedObjectContext = [[NSManagedObjectContext alloc] init];
+		[__managedObjectContext setPersistentStoreCoordinator:coordinator];
+	}
+	
+	[__managedObjectContext setRetainsRegisteredObjects:YES];
+	return __managedObjectContext;
+}
+
+// Returns the managed object model for the application.
+// If the model doesn't already exist, it is created from the application's model.
+- (NSManagedObjectModel *)managedObjectModel
+{
+	if (__managedObjectModel != nil) {
+		return __managedObjectModel;
+	}
+	NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"database" withExtension:@"momd"];
+	__managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+	return __managedObjectModel;
+}
+
+// Returns the persistent store coordinator for the application.
+// If the coordinator doesn't already exist, it is created and the application's store added to it.
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator
+{
+	if (__persistentStoreCoordinator != nil) {
+		return __persistentStoreCoordinator;
+	}
+	
+	NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"database.sqlite"];
+	
+	NSError *error = nil;
+	__persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+	if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
+		
+		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+		abort();
+	}
+	
+	return __persistentStoreCoordinator;
+}
+
+#pragma mark - Application's Documents directory
+
+// Returns the URL to the application's Documents directory.
+- (NSURL *)applicationDocumentsDirectory
+{
+	return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
 
 @end

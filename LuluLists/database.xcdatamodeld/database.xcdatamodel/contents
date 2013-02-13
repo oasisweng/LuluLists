@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SLCategory" representedClassName="SLCategory" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="siblings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SLEntry" inverseName="parent" inverseEntity="SLEntry" syncable="YES"/>
+    </entity>
+    <entity name="SLEntry" representedClassName="SLEntry" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trashed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="trashedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SLCategory" inverseName="siblings" inverseEntity="SLCategory" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SLCategory" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="SLEntry" positionX="358" positionY="324" width="128" height="150"/>
+    </elements>
+</model>
